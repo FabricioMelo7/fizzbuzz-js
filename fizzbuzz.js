@@ -5,6 +5,7 @@
 fizzbuzz();
 
 // Here, we create our main function.
+//#region FizzBuzz function
 function fizzbuzz() 
 {
     // I'll create arrays to store the multiples of each numbers (7, 3, 5, 11 , 17) later on......
@@ -26,6 +27,7 @@ function fizzbuzz()
     
     
 }
+//#endregion
 
 
 //#region Method 3 & 5
