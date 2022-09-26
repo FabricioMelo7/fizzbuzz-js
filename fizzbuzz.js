@@ -5,7 +5,9 @@ function fizzbuzz() {
     
     console.log('Git is confusing!!!!');
 
-    console.log("I'm making some changes")
+    console.log("I'm making some changes");
+
+    console.log("Making one final addition");
     // Put your code here...
 
     
