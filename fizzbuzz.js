@@ -24,5 +24,10 @@ function fizzbuzz() {
     
 }
 
+function multipleOf7() 
+{
+    
+}
+
 // Now we run the main function...
 fizzbuzz();
