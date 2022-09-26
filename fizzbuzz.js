@@ -10,6 +10,20 @@ function fizzbuzz() {
         if (i % 3 == 0 && i % 5 == 0) {
             console.log("FizzBuzz");
         }
+        
+        else if (i % 7 == 0) {
+            if (i % 3 == 3){
+                console.log("FizzBang")
+                                
+            }
+
+            if (i % 5 == 0) {
+                console.log("BuzzBang")
+            }
+            
+            console.log("Bang")
+        }
+
 
         else if (i % 3 == 0) {
             console.log("Fizz");
@@ -30,7 +44,7 @@ function fizzbuzz() {
 
 function multipleOf7() 
 {
-    
+
 }
 
 // Now we run the main function...
