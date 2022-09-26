@@ -5,7 +5,9 @@ function fizzbuzz() {
     
     console.log('Git is confusing!!!!');
 
-    // Put your code here...
+   for(let x = 0; x < 11; x++){
+    console.log(x);
+   }
 
     
 }
