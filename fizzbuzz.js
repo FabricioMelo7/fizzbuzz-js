@@ -3,14 +3,23 @@
 // Here, we create our main function.
 function fizzbuzz() {
     
-    console.log('FizzBuzz!!!!');
+     
 
-    let i = 0;
-   for(i = 0; i < 101; i++){
-    console.log(i);
+   for(let i = 0; i < 101; i++)
+   {
+
+    if(i % 3 == 0 && i % 5 == 0) {console.log("FizzBuzz");} // 
+    
+    else if (i % 3 == 0) {console.log("Fizz");}
+
+    else if (i % 5 == 0) {console.log("Buzz");}
+    
+    else {console.log(i);}
+    
+
    }
    
-    // Put your code here...
+   
     
     
 }
